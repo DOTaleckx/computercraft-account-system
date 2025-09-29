@@ -1,22 +1,23 @@
 ComputerCraft Account System
 
+Really basic user registration and account database for CC:Tweaked + Advanced Peripherals.
+
 This project was made for the [Valhelsia 6 modpack](https://www.curseforge.com/minecraft/modpacks/valhelsia-6) on CurseForge.
 Special thanks to @OGabrieLima for their [LUA SHA-256 Hash Calculator](url) and ChatGPT for helping me figure out how to get it to work in ComputerCraft.
 
-FEATURES:
+<b>FEATURES:</b>
 - In-game account management database with flexible schema
 - SHA-256 hashed 4-digit PIN numbers
 - "lastSeen" property with in-game "day/time" tracking
 - Option to set preferredName for users
 
-REQUIRES:
+<b>REQUIRES:</b>
 - [CC:Tweaked](https://tweaked.cc/)
 - [Advanced Peripherals](https://docs.advanced-peripherals.de/)
 - Anything else Valhelsia 6 has that affects ComputerCraft
 
-Really basic user registration and account database for CC:Tweaked + Advanced Peripherals.
-
-To set this up, install these files into your ComputerCraft machine (I think in the same folder)
+<b>USAGE / SETUP</b>
+To set this up, install these files into your ComputerCraft machine (I think in the same folder, mine is in the root directory)
 - users.db
 - userdb.lua
 - github.lua (poorly named, this file is what has the SHA-256 calculator)
